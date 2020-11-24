@@ -1,0 +1,1102 @@
+@import url( resources/fonts/dejavu.css );
+body {
+	margin: 0px; padding: 0px; width: 100%; height: 100%; color: rgb(53, 56, 51); font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);
+}
+iframe {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; width: 100%; height: 100%; -ms-overflow-y: scroll;
+}
+a:link {
+	color: rgb(74, 103, 130); text-decoration: none;
+}
+a:visited {
+	color: rgb(74, 103, 130); text-decoration: none;
+}
+a[href]:hover {
+	color: rgb(187, 122, 42); text-decoration: none;
+}
+a[href]:focus {
+	color: rgb(187, 122, 42); text-decoration: none;
+}
+a[name] {
+	color: rgb(53, 56, 51);
+}
+pre {
+	font-family: "DejaVu Sans Mono", monospace; font-size: 14px;
+}
+h1 {
+	font-size: 20px;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 16px;
+}
+h4 {
+	font-size: 13px;
+}
+h5 {
+	font-size: 12px;
+}
+h6 {
+	font-size: 11px;
+}
+ul {
+	list-style-type: disc;
+}
+code {
+	line-height: 1.4em; padding-top: 4px; font-family: "DejaVu Sans Mono", monospace; font-size: 14px; margin-top: 8px;
+}
+tt {
+	line-height: 1.4em; padding-top: 4px; font-family: "DejaVu Sans Mono", monospace; font-size: 14px; margin-top: 8px;
+}
+dt code {
+	padding-top: 4px; font-family: "DejaVu Sans Mono", monospace; font-size: 14px;
+}
+table tr td dt code {
+	padding-top: 4px; font-family: "DejaVu Sans Mono", monospace; font-size: 14px; vertical-align: top;
+}
+sup {
+	font-size: 8px;
+}
+button {
+	font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; font-size: 14px;
+}
+.clear {
+	height: 0px; overflow: hidden; clear: both;
+}
+.about-language {
+	padding: 0px 21px; font-size: 11px; margin-top: -9px; float: right; z-index: 200;
+}
+.legal-copy {
+	margin-left: 0.5em;
+}
+.tab {
+	padding: 8px; width: 5em; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(0, 102, 255);
+}
+@media screen
+{
+.flex-box {
+	width: 100%; height: 100%; display: flex; position: fixed; flex-direction: column;
+}
+.flex-header {
+	flex:0 0 auto;
+}
+.flex-content {
+	flex:1 1 auto; -ms-overflow-y: auto;
+}
+}
+.top-nav {
+	padding: 10px 0px 0px; width: 100%; height: 2.8em; color: rgb(255, 255, 255); overflow: hidden; clear: right; font-size: 12px; float: left; background-color: rgb(77, 122, 151);
+}
+.bottom-nav {
+	padding: 10px 0px 0px; width: 100%; height: 2.8em; color: rgb(255, 255, 255); overflow: hidden; clear: right; font-size: 12px; margin-top: 10px; float: left; background-color: rgb(77, 122, 151);
+}
+.sub-nav {
+	width: 100%; overflow: hidden; font-size: 12px; float: left; background-color: rgb(222, 227, 233);
+}
+.sub-nav div {
+	padding: 0px 0px 5px 6px; text-transform: uppercase; clear: left; float: left;
+}
+.sub-nav .nav-list {
+	padding-top: 5px;
+}
+ul.nav-list {
+	margin: 0px 25px 0px 0px; padding: 0px; float: left;
+}
+ul.sub-nav-list {
+	margin: 0px 25px 0px 0px; padding: 0px; float: left;
+}
+ul.nav-list li {
+	list-style: none; padding: 5px 6px; text-transform: uppercase; float: left;
+}
+.sub-nav .nav-list-search {
+	margin: 0px; padding: 5px 6px; clear: none; float: right;
+}
+.nav-list-search label {
+	right: -16px; position: relative;
+}
+ul.sub-nav-list li {
+	list-style: none; padding-top: 10px; float: left;
+}
+.top-nav a:link {
+	color: rgb(255, 255, 255); text-transform: uppercase; text-decoration: none;
+}
+.top-nav a:active {
+	color: rgb(255, 255, 255); text-transform: uppercase; text-decoration: none;
+}
+.top-nav a:visited {
+	color: rgb(255, 255, 255); text-transform: uppercase; text-decoration: none;
+}
+.bottom-nav a:link {
+	color: rgb(255, 255, 255); text-transform: uppercase; text-decoration: none;
+}
+.bottom-nav a:active {
+	color: rgb(255, 255, 255); text-transform: uppercase; text-decoration: none;
+}
+.bottom-nav a:visited {
+	color: rgb(255, 255, 255); text-transform: uppercase; text-decoration: none;
+}
+.top-nav a:hover {
+	color: rgb(187, 122, 42); text-transform: uppercase; text-decoration: none;
+}
+.bottom-nav a:hover {
+	color: rgb(187, 122, 42); text-transform: uppercase; text-decoration: none;
+}
+.nav-bar-cell1-rev {
+	margin: auto 5px; color: rgb(37, 52, 65); background-color: rgb(248, 152, 29);
+}
+.skip-nav {
+	left: -9999px; top: auto; overflow: hidden; position: absolute;
+}
+@media print
+{
+ul.nav-list {
+	display: none;
+}
+div.sub-nav {
+	display: none;
+}
+}
+.title {
+	margin: 10px 0px; color: rgb(44, 69, 87);
+}
+.sub-title {
+	margin: 5px 0px 0px;
+}
+.header ul {
+	margin: 0px 0px 15px; padding: 0px;
+}
+.header ul li {
+	list-style: none; font-size: 13px;
+}
+.footer ul li {
+	list-style: none; font-size: 13px;
+}
+body.class-declaration-page .summary h2 {
+	margin: 15px 0px; padding: 0px; font-style: italic;
+}
+body.class-declaration-page .details h2 {
+	margin: 15px 0px; padding: 0px; font-style: italic;
+}
+body.class-use-page h2 {
+	margin: 15px 0px; padding: 0px; font-style: italic;
+}
+body.module-declaration-page .block-list h2 {
+	margin: 15px 0px; padding: 0px; font-style: italic;
+}
+body.class-declaration-page .summary h3 {
+	margin: 0px 0px 6px -8px; padding: 7px 5px; border: 1px solid rgb(208, 217, 224); border-image: none; background-color: rgb(222, 227, 233);
+}
+body.class-declaration-page .details h3 {
+	margin: 0px 0px 6px -8px; padding: 7px 5px; border: 1px solid rgb(208, 217, 224); border-image: none; background-color: rgb(222, 227, 233);
+}
+body.class-declaration-page .summary .inherited-list h2 {
+	margin: 0px 0px 6px -8px; padding: 7px 5px; border: 1px solid rgb(208, 217, 224); border-image: none; background-color: rgb(222, 227, 233);
+}
+main {
+	padding: 10px 20px; clear: both; position: relative;
+}
+dl.notes > dt {
+	margin: 10px 0px 0px; color: rgb(78, 78, 78); font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold;
+}
+dl.notes > dd {
+	margin: 5px 0px 10px; font-family: "DejaVu Serif", Georgia, "Times New Roman", Times, serif; font-size: 14px;
+}
+dl.name-value > dt {
+	font-size: 1.1em; font-weight: bold; margin-left: 1px; display: inline;
+}
+dl.name-value > dd {
+	margin: 0px 0px 0px 1px; font-size: 1.1em; display: inline;
+}
+li.circle {
+	list-style: circle;
+}
+ul.horizontal li {
+	font-size: 0.9em; display: inline;
+}
+div.inheritance {
+	margin: 0px; padding: 0px;
+}
+div.inheritance div.inheritance {
+	margin-left: 2em;
+}
+ul.block-list {
+	margin: 10px 0px; padding: 0px;
+}
+ul.details-list {
+	margin: 10px 0px; padding: 0px;
+}
+ul.member-list {
+	margin: 10px 0px; padding: 0px;
+}
+ul.summary-list {
+	margin: 10px 0px; padding: 0px;
+}
+ul.block-list > li {
+	list-style: none; line-height: 1.4; margin-bottom: 15px;
+}
+ul.details-list > li {
+	list-style: none; line-height: 1.4; margin-bottom: 15px;
+}
+ul.member-list > li {
+	list-style: none; line-height: 1.4; margin-bottom: 15px;
+}
+ul.summary-list > li {
+	list-style: none; line-height: 1.4; margin-bottom: 15px;
+}
+table tr td dl {
+	margin-top: 0px; margin-bottom: 1px;
+}
+table tr td dl dt {
+	margin-top: 0px; margin-bottom: 1px;
+}
+table tr td dl dd {
+	margin-top: 0px; margin-bottom: 1px;
+}
+.overview-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.member-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.type-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.use-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.constants-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.deprecated-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.requires-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.packages-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.provides-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.uses-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.system-properties-summary table {
+	width: 100%; border-right-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-spacing: 0;
+}
+.overview-summary table {
+	padding: 0px;
+}
+.member-summary table {
+	padding: 0px;
+}
+.requires-summary table {
+	padding: 0px;
+}
+.packages-summary table {
+	padding: 0px;
+}
+.provides-summary table {
+	padding: 0px;
+}
+.uses-summary table {
+	padding: 0px;
+}
+.system-properties-summary table {
+	padding: 0px;
+}
+.overview-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.member-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.type-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.use-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.constants-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.deprecated-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.requires-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.packages-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.provides-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.uses-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.system-properties-summary caption {
+	margin: 0px; padding: 10px 0px 0px 1px; text-align: left; color: rgb(37, 52, 65); overflow: hidden; clear: none; font-weight: bold; white-space: pre; position: relative; background-repeat: no-repeat;
+}
+.constants-summary caption a:link {
+	color: rgb(31, 56, 156);
+}
+.constants-summary caption a:visited {
+	color: rgb(31, 56, 156);
+}
+.use-summary caption a:link {
+	color: rgb(31, 56, 156);
+}
+.use-summary caption a:visited {
+	color: rgb(31, 56, 156);
+}
+.overview-summary caption a:link {
+	color: rgb(255, 255, 255);
+}
+.member-summary caption a:link {
+	color: rgb(255, 255, 255);
+}
+.type-summary caption a:link {
+	color: rgb(255, 255, 255);
+}
+.deprecated-summary caption a:link {
+	color: rgb(255, 255, 255);
+}
+.requires-summary caption a:link {
+	color: rgb(255, 255, 255);
+}
+.packages-summary caption a:link {
+	color: rgb(255, 255, 255);
+}
+.provides-summary caption a:link {
+	color: rgb(255, 255, 255);
+}
+.uses-summary caption a:link {
+	color: rgb(255, 255, 255);
+}
+.overview-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.member-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.type-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.use-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.constants-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.deprecated-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.requires-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.packages-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.provides-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.uses-summary caption a:hover {
+	color: rgb(255, 255, 255);
+}
+.overview-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.member-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.type-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.use-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.constants-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.deprecated-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.requires-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.packages-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.provides-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.uses-summary caption a:active {
+	color: rgb(255, 255, 255);
+}
+.overview-summary caption a:visited {
+	color: rgb(255, 255, 255);
+}
+.member-summary caption a:visited {
+	color: rgb(255, 255, 255);
+}
+.type-summary caption a:visited {
+	color: rgb(255, 255, 255);
+}
+.deprecated-summary caption a:visited {
+	color: rgb(255, 255, 255);
+}
+.requires-summary caption a:visited {
+	color: rgb(255, 255, 255);
+}
+.packages-summary caption a:visited {
+	color: rgb(255, 255, 255);
+}
+.provides-summary caption a:visited {
+	color: rgb(255, 255, 255);
+}
+.uses-summary caption a:visited {
+	color: rgb(255, 255, 255);
+}
+.overview-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.member-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.type-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.use-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.constants-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.deprecated-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.requires-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.packages-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.provides-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.uses-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+.system-properties-summary caption span {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; height: 16px; float: left; display: inline-block; white-space: nowrap; background-color: rgb(248, 152, 29);
+}
+div.table-tabs > button {
+	padding: 5px 12px 7px; border: currentColor; border-image: none; font-weight: bold; margin-right: 3px; cursor: pointer;
+}
+div.table-tabs > button.active-table-tab {
+	background: rgb(248, 152, 29); color: rgb(37, 52, 65);
+}
+div.table-tabs > button.table-tab {
+	background: rgb(77, 122, 151); color: rgb(255, 255, 255);
+}
+.row-color th {
+	font-weight: normal;
+}
+.alt-color th {
+	font-weight: normal;
+}
+.overview-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.member-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.type-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.use-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.constants-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.deprecated-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.requires-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.packages-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.provides-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.uses-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+.system-properties-summary td {
+	padding: 0px 0px 12px 10px; text-align: left;
+}
+th.col-first {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+th.col-second {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+th.col-last {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+th.col-constructor-name {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+th.col-deprecated-item-name {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+.use-summary th {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+.constants-summary th {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+.packages-summary th {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+td.col-first {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+td.col-second {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+td.col-last {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+.use-summary td {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+.constants-summary td {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+.system-properties-summary th {
+	padding-top: 8px; padding-right: 0px; padding-bottom: 3px; vertical-align: top;
+}
+th.col-first {
+	background: rgb(222, 227, 233); padding: 8px 3px 3px 7px; text-align: left;
+}
+th.col-second {
+	background: rgb(222, 227, 233); padding: 8px 3px 3px 7px; text-align: left;
+}
+th.col-last {
+	background: rgb(222, 227, 233); padding: 8px 3px 3px 7px; text-align: left;
+}
+th.col-constructor-name {
+	background: rgb(222, 227, 233); padding: 8px 3px 3px 7px; text-align: left;
+}
+th.col-deprecated-item-name {
+	background: rgb(222, 227, 233); padding: 8px 3px 3px 7px; text-align: left;
+}
+.constants-summary th {
+	background: rgb(222, 227, 233); padding: 8px 3px 3px 7px; text-align: left;
+}
+.packages-summary th {
+	background: rgb(222, 227, 233); padding: 8px 3px 3px 7px; text-align: left;
+}
+td.col-first {
+	font-size: 13px;
+}
+th.col-first {
+	font-size: 13px;
+}
+td.col-second {
+	font-size: 13px;
+}
+th.col-second {
+	font-size: 13px;
+}
+td.col-last {
+	font-size: 13px;
+}
+th.col-constructor-name {
+	font-size: 13px;
+}
+th.col-deprecated-item-name {
+	font-size: 13px;
+}
+th.col-last {
+	font-size: 13px;
+}
+.constants-summary th {
+	font-size: 13px;
+}
+.packages-summary th {
+	font-size: 13px;
+}
+.provides-summary th.col-first {
+	font-size: 13px; white-space: normal;
+}
+.provides-summary th.col-last {
+	font-size: 13px; white-space: normal;
+}
+.provides-summary td.col-first {
+	font-size: 13px; white-space: normal;
+}
+.provides-summary td.col-last {
+	font-size: 13px; white-space: normal;
+}
+.overview-summary td.col-first {
+	vertical-align: top;
+}
+.overview-summary th.col-first {
+	vertical-align: top;
+}
+.requires-summary td.col-first {
+	vertical-align: top;
+}
+.requires-summary th.col-first {
+	vertical-align: top;
+}
+.packages-summary td.col-first {
+	vertical-align: top;
+}
+.packages-summary td.col-second {
+	vertical-align: top;
+}
+.packages-summary th.col-first {
+	vertical-align: top;
+}
+.packages-summary th {
+	vertical-align: top;
+}
+.uses-summary td.col-first {
+	vertical-align: top;
+}
+.uses-summary th.col-first {
+	vertical-align: top;
+}
+.provides-summary td.col-first {
+	vertical-align: top;
+}
+.provides-summary th.col-first {
+	vertical-align: top;
+}
+.member-summary td.col-first {
+	vertical-align: top;
+}
+.member-summary th.col-first {
+	vertical-align: top;
+}
+.member-summary td.col-second {
+	vertical-align: top;
+}
+.member-summary th.col-second {
+	vertical-align: top;
+}
+.member-summary th.col-constructor-name {
+	vertical-align: top;
+}
+.type-summary td.col-first {
+	vertical-align: top;
+}
+.type-summary th.col-first {
+	vertical-align: top;
+}
+.packages-summary th.col-last {
+	white-space: normal;
+}
+.packages-summary td.col-last {
+	white-space: normal;
+}
+td.col-first a:link {
+	font-weight: bold;
+}
+td.col-first a:visited {
+	font-weight: bold;
+}
+td.col-second a:link {
+	font-weight: bold;
+}
+td.col-second a:visited {
+	font-weight: bold;
+}
+th.col-first a:link {
+	font-weight: bold;
+}
+th.col-first a:visited {
+	font-weight: bold;
+}
+th.col-second a:link {
+	font-weight: bold;
+}
+th.col-second a:visited {
+	font-weight: bold;
+}
+th.col-constructor-name a:link {
+	font-weight: bold;
+}
+th.col-constructor-name a:visited {
+	font-weight: bold;
+}
+th.col-deprecated-item-name a:link {
+	font-weight: bold;
+}
+th.col-deprecated-item-name a:visited {
+	font-weight: bold;
+}
+.constant-values-container td a:link {
+	font-weight: bold;
+}
+.constant-values-container td a:visited {
+	font-weight: bold;
+}
+.all-classes-container td a:link {
+	font-weight: bold;
+}
+.all-classes-container td a:visited {
+	font-weight: bold;
+}
+.all-packages-container td a:link {
+	font-weight: bold;
+}
+.all-packages-container td a:visited {
+	font-weight: bold;
+}
+.table-sub-heading-color {
+	background-color: rgb(238, 238, 255);
+}
+.alt-color {
+	background-color: rgb(255, 255, 255);
+}
+.alt-color th {
+	background-color: rgb(255, 255, 255);
+}
+.row-color {
+	background-color: rgb(238, 238, 239);
+}
+.row-color th {
+	background-color: rgb(238, 238, 239);
+}
+.description pre {
+	margin-top: 0px;
+}
+.deprecated-content {
+	margin: 0px; padding: 10px 0px;
+}
+div.block {
+	font-family: "DejaVu Serif", Georgia, "Times New Roman", Times, serif; font-size: 14px;
+}
+td.col-last div {
+	padding-top: 0px;
+}
+td.col-last a {
+	padding-bottom: 3px;
+}
+div.member-signature {
+	margin: 14px 0px; font-family: "DejaVu Sans Mono", monospace; font-size: 14px; white-space: pre-wrap;
+}
+div.member-signature span.annotations {
+	white-space: pre-wrap;
+}
+div.member-signature span.type-parameters-long {
+	vertical-align: top; display: inline-block; white-space: pre;
+}
+div.member-signature span.parameters {
+	vertical-align: top; display: inline-block; white-space: pre;
+}
+div.member-signature span.exceptions {
+	vertical-align: top; display: inline-block; white-space: pre;
+}
+div.member-signature span.type-parameters {
+	white-space: normal;
+}
+.source-line-no {
+	padding: 0px 30px 0px 0px; color: green;
+}
+h1.hidden {
+	overflow: hidden; font-size: 10px; visibility: hidden;
+}
+.block {
+	margin: 0px 10px 5px 0px; color: rgb(71, 71, 71); display: block;
+}
+.deprecated-label {
+	font-weight: bold;
+}
+.descfrm-type-label {
+	font-weight: bold;
+}
+.implementation-label {
+	font-weight: bold;
+}
+.member-name-label {
+	font-weight: bold;
+}
+.member-name-link {
+	font-weight: bold;
+}
+.module-label-in-package {
+	font-weight: bold;
+}
+.module-label-in-type {
+	font-weight: bold;
+}
+.override-specify-label {
+	font-weight: bold;
+}
+.package-label-in-type {
+	font-weight: bold;
+}
+.package-hierarchy-label {
+	font-weight: bold;
+}
+.type-name-label {
+	font-weight: bold;
+}
+.type-name-link {
+	font-weight: bold;
+}
+.search-tag-link {
+	font-weight: bold;
+}
+.deprecation-comment {
+	font-style: italic;
+}
+.help-footnote {
+	font-style: italic;
+}
+.interface-name {
+	font-style: italic;
+}
+.deprecation-block {
+	border-width: thin; border-style: solid; padding: 10px; border-radius: 10px; font-family: "DejaVu Serif", Georgia, "Times New Roman", Times, serif; font-size: 14px; margin-right: 10px; margin-bottom: 10px; display: inline-block;
+}
+div.block div.deprecation-comment {
+	font-style: normal;
+}
+div.block div.block span.emphasized-phrase {
+	font-style: normal;
+}
+div.block div.block span.interface-name {
+	font-style: normal;
+}
+main {
+	display: block;
+}
+nav {
+	display: block;
+}
+header {
+	display: block;
+}
+footer {
+	display: block;
+}
+section {
+	display: block;
+}
+.ui-autocomplete-category {
+	padding: 7px 0px 7px 3px; color: rgb(255, 255, 255); font-size: 15px; font-weight: bold; background-color: rgb(77, 122, 151);
+}
+.result-item {
+	font-size: 13px;
+}
+.ui-autocomplete {
+	white-space: nowrap; -ms-overflow-x: scroll; -ms-overflow-y: scroll; max-height: 85%; max-width: 65%; box-shadow: 0px 3px 6px rgba(0,0,0,0.16), 0px 3px 6px rgba(0,0,0,0.23);
+}
+ul.ui-autocomplete {
+	position: fixed; z-index: 999999;
+}
+ul.ui-autocomplete li {
+	width: 100%; clear: both; float: left;
+}
+.result-highlight {
+	font-weight: bold;
+}
+#search {
+	background-position: 2px 3px; width: 400px; right: -18px; padding-left: 20px; position: relative; background-image: url("resources/glass.png"); background-repeat: no-repeat; background-size: 13px;
+}
+#reset {
+	background-position: center; border: 0px currentColor; border-image: none; left: -4px; top: -4px; width: 16px; height: 16px; font-size: 0px; position: relative; background-image: url("resources/x.png"); background-repeat: no-repeat; background-size: 12px; background-color: rgb(255, 255, 255);
+}
+.watermark {
+	color: rgb(84, 84, 84);
+}
+.search-tag-desc-result {
+	font-size: 11px; font-style: italic;
+}
+.search-tag-holder-result {
+	font-size: 12px; font-style: italic;
+}
+:target.search-tag-result {
+	background-color: yellow;
+}
+.module-graph span {
+	display: none; position: absolute;
+}
+.module-graph:hover span {
+	margin: -100px 0px 0px 100px; display: block; z-index: 1;
+}
+.inherited-list {
+	margin: 10px 0px;
+}
+section.description {
+	line-height: 1.4;
+}
+.summary section[class$='-summary'] {
+	padding: 0px 20px 5px 10px; border: 1px solid rgb(237, 237, 237); border-image: none; background-color: rgb(248, 248, 248);
+}
+.details section[class$='-details'] {
+	padding: 0px 20px 5px 10px; border: 1px solid rgb(237, 237, 237); border-image: none; background-color: rgb(248, 248, 248);
+}
+.class-uses .detail {
+	padding: 0px 20px 5px 10px; border: 1px solid rgb(237, 237, 237); border-image: none; background-color: rgb(248, 248, 248);
+}
+.serialized-class-details {
+	padding: 0px 20px 5px 10px; border: 1px solid rgb(237, 237, 237); border-image: none; background-color: rgb(248, 248, 248);
+}
+.inherited-list {
+	padding: 0px 0px 5px 8px; border: currentColor; border-image: none; background-color: rgb(255, 255, 255);
+}
+section[class$='-details'] .detail {
+	padding: 0px 0px 5px 8px; border: currentColor; border-image: none; background-color: rgb(255, 255, 255);
+}
+.vertical-separator {
+	padding: 0px 5px;
+}
+ul.help-section-list {
+	margin: 0px;
+}
+main a[href*='://']::after {
+	width: 7px; height: 7px; margin-bottom: 4px; margin-left: 2px; display: inline-block; content: ""; background-image: url("data:image/svg+xml; utf8,       <svg xmlns="http://www.w3.org/2000/svg" width="768" height="768">        <path d="M584 664H104V184h216V80H0v688h688V448H584zM384 0l132         132-240 240 120 120 240-240 132 132V0z" fill="%234a6782"/>      </svg>"); background-size: 100% 100%;
+}
+main a[href*='://']:hover::after {
+	background-image: url("data:image/svg+xml; utf8,       <svg xmlns="http://www.w3.org/2000/svg" width="768" height="768">        <path d="M584 664H104V184h216V80H0v688h688V448H584zM384 0l132         132-240 240 120 120 240-240 132 132V0z" fill="%23bb7a2a"/>      </svg>");
+}
+main a[href*='://']:focus::after {
+	background-image: url("data:image/svg+xml; utf8,       <svg xmlns="http://www.w3.org/2000/svg" width="768" height="768">        <path d="M584 664H104V184h216V80H0v688h688V448H584zM384 0l132         132-240 240 120 120 240-240 132 132V0z" fill="%23bb7a2a"/>      </svg>");
+}
+table.borderless {
+	margin-top: 10px; margin-bottom: 10px;
+}
+table.plain {
+	margin-top: 10px; margin-bottom: 10px;
+}
+table.striped {
+	margin-top: 10px; margin-bottom: 10px;
+}
+table.borderless > caption {
+	font-size: smaller; font-weight: bold;
+}
+table.plain > caption {
+	font-size: smaller; font-weight: bold;
+}
+table.striped > caption {
+	font-size: smaller; font-weight: bold;
+}
+table.borderless th {
+	padding: 2px 5px;
+}
+table.borderless td {
+	padding: 2px 5px;
+}
+table.plain th {
+	padding: 2px 5px;
+}
+table.plain td {
+	padding: 2px 5px;
+}
+table.striped th {
+	padding: 2px 5px;
+}
+table.striped td {
+	padding: 2px 5px;
+}
+table.borderless {
+	border: currentColor; border-image: none;
+}
+table.borderless > thead > tr > th {
+	border: currentColor; border-image: none;
+}
+table.borderless > tbody > tr > th {
+	border: currentColor; border-image: none;
+}
+table.borderless > tr > th {
+	border: currentColor; border-image: none;
+}
+table.borderless > thead > tr > td {
+	border: currentColor; border-image: none;
+}
+table.borderless > tbody > tr > td {
+	border: currentColor; border-image: none;
+}
+table.borderless > tr > td {
+	border: currentColor; border-image: none;
+}
+table.borderless > thead > tr {
+	background-color: transparent;
+}
+table.borderless > tbody > tr {
+	background-color: transparent;
+}
+table.borderless > tr {
+	background-color: transparent;
+}
+table.plain {
+	border: 1px solid black; border-image: none; border-collapse: collapse;
+}
+table.plain > thead > tr {
+	background-color: transparent;
+}
+table.plain > tbody tr {
+	background-color: transparent;
+}
+table.plain > tr {
+	background-color: transparent;
+}
+table.plain > thead > tr > th {
+	border: 1px solid black; border-image: none;
+}
+table.plain > tbody > tr > th {
+	border: 1px solid black; border-image: none;
+}
+table.plain > tr > th {
+	border: 1px solid black; border-image: none;
+}
+table.plain > thead > tr > td {
+	border: 1px solid black; border-image: none;
+}
+table.plain > tbody > tr > td {
+	border: 1px solid black; border-image: none;
+}
+table.plain > tr > td {
+	border: 1px solid black; border-image: none;
+}
+table.striped {
+	border: 1px solid black; border-image: none; border-collapse: collapse;
+}
+table.striped > thead {
+	background-color: rgb(227, 227, 227);
+}
+table.striped > thead > tr > th {
+	border: 1px solid black; border-image: none;
+}
+table.striped > thead > tr > td {
+	border: 1px solid black; border-image: none;
+}
+table.striped > tbody > tr:nth-child(2n) {
+	background-color: rgb(238, 238, 238);
+}
+table.striped > tbody > tr:nth-child(2n+1) {
+	background-color: rgb(255, 255, 255);
+}
+table.striped > tbody > tr > th {
+	border-right-color: black; border-left-color: black; border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+table.striped > tbody > tr > td {
+	border-right-color: black; border-left-color: black; border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+table.striped > tbody > tr > th {
+	font-weight: normal;
+}
